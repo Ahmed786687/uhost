@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0;
+
+}
+
+.main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2ddf5c;
+    padding: 15px 20px;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #012c0c;
+    vertical-align: middle;
+}
+
+.main-header>div {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 57px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #012c0c;
+    padding: 5px 0px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.main-nav__item__cta a {
+    background-color: #ff1b68;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.main-nav__item__cta a:hover,
+.main-nav__item__cta a:active {
+    background-color: white;
+    color: #ff1b68;
+    border: none;
+
+}
+
+.main-footer{
+    background-color: #b0e6be;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    margin-top: 80px ;
+}
+
+.main-footer__links{
+    margin: 0px;
+    padding: 32px;
+    list-style-type: none;
+}
+
+.main-footer__link{
+    display: inline;
+    padding: 6px 12px;
+    margin: 0px 12px;
+}
+.main-footer__link > a{
+    text-decoration: none;
+    color: #012c0c;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: #ffffff;
+}
+
+.main-footer__copyrite{
+    padding: 10px;
+    background-color: #012c0c;
+    /* color: #b0e6be; */
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.main-footer__copyrite p{
+    margin: 0px;
+}
+
+.button {
+    background-color: #012c0c;
+    color: white;
+    font: inherit;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+    color: #012c0c;
+    border: 1px solid #012c0c;
+}
